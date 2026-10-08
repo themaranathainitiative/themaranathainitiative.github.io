@@ -1,0 +1,7 @@
+# Jekyll deep-merges these values with Chirpy's English locale.
+# Do not assign the starter's Creative Commons license to future writing.
+copyright:
+  license:
+    template: false
+  brief: false
+  verbose: false

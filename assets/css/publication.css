@@ -1,0 +1,256 @@
+/* Midnight & Parchment — local design layer for Chirpy 7.6.
+   1. Brand tokens; 2. Mode palettes; 3. Chirpy mappings; 4. Components.
+   Gold is decorative. Use gold-ink for ordinary text and focus for controls.
+   Typography uses system fonts; Chirpy owns layout and interactive behavior. */
+
+:root {
+  --publication-parchment: #f6f2e9;
+  --publication-midnight: #233c50;
+  --publication-gold: #b38a55;
+  --publication-charcoal: #33353a;
+  --publication-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --publication-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+:root, :root[data-bs-theme="light"] {
+  color-scheme: light;
+  --publication-bg: var(--publication-parchment);
+  --publication-surface: #ede8dd;
+  --publication-hover: #e7e1d5;
+  --publication-border: #d7d0c3;
+  --publication-text: var(--publication-charcoal);
+  --publication-muted: #64615b;
+  --publication-heading: var(--publication-midnight);
+  --publication-link: var(--publication-midnight);
+  --publication-link-hover: #79572f;
+  --publication-gold-ink: #79572f;
+  --publication-focus: #79572f;
+  --publication-sidebar: var(--publication-midnight);
+  --publication-sidebar-border: #3f5668;
+  --publication-sidebar-text: #d4dde3;
+  --publication-sidebar-muted: #c0ccd5;
+  --publication-sidebar-hover: #304c62;
+  --publication-sidebar-active: var(--publication-parchment);
+  --publication-sidebar-gold: #d4ae78;
+  --publication-topbar: rgb(246 242 233 / 96%);
+  --publication-code-bg: #ece7dc;
+  --publication-code-text: #33353a;
+  --publication-note-bg: #e7e8e3;
+  --publication-footnote-bg: #e7ddc9;
+}
+
+:root[data-bs-theme="dark"] {
+  color-scheme: dark;
+  --publication-bg: #18232d;
+  --publication-surface: #202e3a;
+  --publication-hover: #293b49;
+  --publication-border: #3d4b56;
+  --publication-text: #e2dfd7;
+  --publication-muted: #afb9c1;
+  --publication-heading: var(--publication-parchment);
+  --publication-link: #b5ccdd;
+  --publication-link-hover: #e4c493;
+  --publication-gold-ink: #d4ae78;
+  --publication-focus: #d4ae78;
+  --publication-sidebar: #142737;
+  --publication-sidebar-border: #354d5e;
+  --publication-sidebar-text: #d4dde3;
+  --publication-sidebar-muted: #bac8d2;
+  --publication-sidebar-hover: #233e52;
+  --publication-sidebar-active: var(--publication-parchment);
+  --publication-sidebar-gold: #d4ae78;
+  --publication-topbar: rgb(24 35 45 / 96%);
+  --publication-code-bg: #131d26;
+  --publication-code-text: #e2dfd7;
+  --publication-note-bg: #243643;
+  --publication-footnote-bg: #3e3c32;
+}
+
+/* Match Chirpy's mode-selector specificity, including its system fallback. */
+:root, :root[data-bs-theme], :root:not([data-bs-theme]) {
+  --main-bg: var(--publication-bg);
+  --main-border-color: var(--publication-border);
+  --text-color: var(--publication-text);
+  --text-muted-color: var(--publication-muted);
+  --text-muted-highlight-color: var(--publication-text);
+  --heading-color: var(--publication-heading);
+  --label-color: var(--publication-muted);
+  --link-color: var(--publication-link);
+  --link-underline-color: var(--publication-border);
+  --blockquote-border-color: var(--publication-gold);
+  --blockquote-text-color: var(--publication-text);
+  --sidebar-bg: var(--publication-sidebar);
+  --sidebar-border-color: var(--publication-sidebar-border);
+  --site-title-color: var(--publication-parchment);
+  --site-subtitle-color: var(--publication-sidebar-muted);
+  --sidebar-muted-color: var(--publication-sidebar-text);
+  --sidebar-active-color: var(--publication-sidebar-active);
+  --sidebar-hover-bg: var(--publication-sidebar-hover);
+  --sidebar-btn-bg: var(--publication-sidebar-hover);
+  --sidebar-btn-color: var(--publication-sidebar-text);
+  --topbar-bg: var(--publication-topbar);
+  --topbar-text-color: var(--publication-muted);
+  --search-border-color: var(--publication-border);
+  --search-icon-color: var(--publication-muted);
+  --input-focus-border-color: var(--publication-focus);
+  --card-bg: var(--publication-bg);
+  --card-header-bg: var(--publication-surface);
+  --card-hover-bg: var(--publication-surface);
+  --card-shadow: none;
+  --post-list-text-color: var(--publication-muted);
+  --button-bg: var(--publication-surface);
+  --btn-border-color: var(--publication-border);
+  --btn-backtotop-color: var(--publication-link);
+  --btn-backtotop-border-color: var(--publication-border);
+  --btn-patinator-text-color: var(--publication-text);
+  --btn-paginator-hover-color: var(--publication-hover);
+  --menu-bg: var(--publication-sidebar);
+  --menu-border-color: var(--publication-sidebar-border);
+  --menu-active-color: var(--publication-sidebar-active);
+  --menu-highlight-bg: var(--publication-sidebar-hover);
+  --toc-highlight: var(--publication-gold-ink);
+  --toc-popup-border-color: var(--publication-border);
+  --tb-odd-bg: var(--publication-surface);
+  --tb-even-bg: var(--publication-bg);
+  --tb-border-color: var(--publication-border);
+  --tag-border: var(--publication-border);
+  --tag-shadow: transparent;
+  --tag-hover: var(--publication-hover);
+  --search-tag-bg: var(--publication-surface);
+  --categories-border: var(--publication-border);
+  --categories-hover-bg: var(--publication-hover);
+  --categories-icon-hover-color: var(--publication-link);
+  --footnote-target-bg: var(--publication-footnote-bg);
+  --btn-share-color: var(--publication-muted);
+  --btn-share-hover-color: var(--publication-link-hover);
+  --language-border-color: var(--publication-border);
+  --highlight-bg-color: var(--publication-code-bg);
+  --highlighter-rouge-color: var(--publication-link);
+  --highlight-lineno-color: var(--publication-muted);
+  --code-color: var(--publication-code-text);
+  --code-header-text-color: var(--publication-muted);
+  --code-header-icon-color: var(--publication-muted);
+  --code-header-muted-color: var(--publication-border);
+  --prompt-text-color: var(--publication-text);
+  --prompt-tip-bg: var(--publication-note-bg);
+  --prompt-info-bg: var(--publication-note-bg);
+  --prompt-warning-bg: var(--publication-note-bg);
+  --prompt-danger-bg: var(--publication-note-bg);
+  --prompt-tip-icon-color: var(--publication-link);
+  --prompt-info-icon-color: var(--publication-link);
+  --prompt-warning-icon-color: var(--publication-gold-ink);
+  --prompt-danger-icon-color: var(--publication-gold-ink);
+}
+
+body, .content, #sidebar, #topbar, .pagination, .post-meta, footer {
+  font-family: var(--publication-sans);
+}
+h1, h2, h3, h4, h5, h6, #sidebar .site-title {
+  font-family: var(--publication-serif);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+main h1 { font-size: clamp(2rem, 4vw, 2.8rem); text-wrap: balance; }
+main .content { font-size: 1.0625rem; line-height: 1.85; }
+main > article { max-width: 46rem; margin-inline: auto; }
+.content p { margin-bottom: 1.35em; }
+.content h2 { font-size: 1.8rem; }
+.content h3 { font-size: 1.45rem; }
+.content h4 { font-size: 1.2rem; }
+.content li + li { margin-top: 0.35em; }
+.content a:not(.popup):not(.anchor):not(.reversefootnote) { text-underline-offset: 0.2em; }
+/* Chirpy's fixed orange hover uses !important; keep links in this palette. */
+main a:not(.post-preview):not(.popup):not(.anchor):hover,
+footer a:hover, #panel-wrapper a:hover {
+  color: var(--publication-link-hover) !important;
+  border-bottom-color: var(--publication-link-hover);
+}
+.content blockquote:not([class^="prompt-"]) {
+  margin-block: 1.8rem;
+  padding: 0.25rem 0 0.25rem 1.3rem;
+  border-left-width: 3px;
+  font-family: var(--publication-serif);
+  font-size: 1.15em;
+}
+.content blockquote[class^="prompt-"] { border: 1px solid var(--publication-border); border-radius: 0.25rem; }
+.content .footnotes { font-size: 0.9rem; line-height: 1.7; }
+.content .reversefootnote { font-size: 0.85rem; padding: 0.25em; }
+.content img { border-radius: 0.25rem; }
+.content .table-wrapper { font-size: 0.95rem; }
+.content .table-wrapper > table thead { border-bottom-color: var(--publication-gold); }
+:root[data-bs-theme] .highlight, :root[data-bs-theme] .highlight .w { color: var(--publication-code-text); background-color: var(--publication-code-bg); }
+/* Keep comments and line numbers legible on the custom code surfaces. */
+:root[data-bs-theme] .highlight :is(.c, .ch, .cd, .cm, .cpf, .c1, .cs, .gl, .gp) {
+  color: var(--publication-muted);
+}
+/* Deepen Chirpy's red and violet syntax tokens for the parchment surface. */
+:root[data-bs-theme="light"] .highlight :is(.k, .kd, .kn, .kp, .kr, .kt, .kv, .gr) { color: #b8202b; }
+:root[data-bs-theme="light"] .highlight :is(.nd, .nf, .fm) { color: #7340be; }
+/* Optional Markdown attribute: John 1:1–5{: .scripture-reference } */
+.scripture-reference { white-space: nowrap; font-variant-numeric: lining-nums; }
+.post-tag { border-radius: 0.25rem; }
+#toc-wrapper { border-left: 1px solid var(--publication-border); }
+#toc-wrapper .panel-heading { color: var(--publication-muted); }
+
+#sidebar { border-right: 1px solid var(--sidebar-border-color); }
+#sidebar #avatar { display: none; }
+#sidebar .site-title { font-size: 1.85rem; line-height: 1.15; margin-top: 0; }
+#sidebar .site-title:hover { color: var(--publication-sidebar-active); }
+#sidebar .site-subtitle { height: auto; line-height: 1.65; font-size: 0.9rem; font-style: normal !important; }
+#sidebar .profile-wrapper { margin-bottom: 2.25rem; }
+#sidebar ul li.nav-item { opacity: 1; }
+#sidebar ul li.nav-item a.nav-link { border-radius: 0.2rem; font-weight: 500; border-left: 2px solid transparent; }
+#sidebar ul li.nav-item.active a.nav-link { border-left-color: var(--publication-sidebar-gold); }
+#sidebar ul li.nav-item.active a.nav-link i { color: var(--publication-sidebar-gold); opacity: 1; }
+#sidebar ul li.nav-item a.nav-link span { letter-spacing: 0.025em; }
+#sidebar ul li.nav-item a.nav-link i { margin-right: 1rem; opacity: 1; }
+#sidebar .sidebar-bottom > a, #sidebar #mode-toggle { width: 2.75rem; height: 2.75rem; }
+#sidebar :where(a, button):focus-visible { outline-color: var(--publication-sidebar-gold); }
+
+.publication-intro { padding: 2.75rem 0 2.5rem; border-bottom: 1px solid var(--publication-border); }
+.publication-eyebrow { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.9rem; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--publication-muted); }
+.publication-eyebrow::before { content: ""; width: 1.8rem; height: 2px; flex-shrink: 0; background: var(--publication-gold); }
+.publication-intro h1 { margin: 0 0 1rem; font-size: clamp(2.1rem, 4vw, 3rem); }
+.publication-tagline { font-family: var(--publication-serif); font-size: 1.3rem; line-height: 1.5; margin-bottom: 1rem; }
+.publication-description { max-width: 36rem; line-height: 1.8; margin-bottom: 1.1rem; color: var(--publication-muted); }
+.publication-byline { color: var(--publication-muted); font-size: 0.85rem; margin: 0; }
+main .publication-feed-heading { font-family: var(--publication-sans); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin: 2.5rem 0 0; }
+#post-list { margin-top: 1.1rem; }
+#post-list .card { border-radius: 0; border-bottom: 1px solid var(--publication-border); box-shadow: none; }
+#post-list .card-wrapper:not(:last-child) { margin-bottom: 0; }
+#post-list .card .card-body { padding: 1.75rem 0.65rem; }
+#post-list .publication-category { margin: 0 0 0.65rem; color: var(--publication-gold-ink); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; line-height: 1.6; text-transform: uppercase; }
+#post-list .publication-category span { margin-inline: 0.25rem; color: var(--publication-muted); }
+#post-list .card .card-body .card-title { font-size: 1.7rem; white-space: normal; line-height: 1.3; }
+#post-list .card .card-body .card-text.content p { line-height: 1.7; }
+#post-list .post-preview { border-radius: 0.2rem; }
+#post-list .post-preview:hover { background: var(--publication-surface); }
+#post-list .post-meta { font-size: 0.8rem; gap: 0.75rem; }
+#post-list .post-meta > div:first-child { white-space: normal; overflow: visible; }
+.publication-read-time { display: inline-block; }
+.publication-meta-divider { margin-inline: 0.5rem; }
+.publication-empty { margin-top: 1.5rem; padding: 1.75rem 1.75rem 2rem; background: var(--publication-surface); border-left: 2px solid var(--publication-gold); }
+main .publication-empty h3 { margin: 0 0 0.8rem; font-size: 1.45rem; }
+.publication-empty p { max-width: 33rem; margin-bottom: 1.1rem; color: var(--publication-muted); line-height: 1.8; }
+.publication-empty a { font-size: 0.9rem; text-decoration: underline; text-underline-offset: 0.25em; }
+.publication-empty a:hover { color: var(--publication-link-hover); }
+footer { border-top-color: var(--publication-border); }
+
+:where(a, button, input, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--publication-focus);
+  outline-offset: 4px;
+}
+@media (max-width: 575.98px) {
+  main .content { font-size: 1rem; line-height: 1.8; }
+  .publication-intro { padding: 1.75rem 0 2rem; }
+  .publication-tagline { font-size: 1.15rem; }
+  .publication-description { font-size: 0.95rem; }
+  .publication-empty { padding: 1.25rem; }
+  #post-list .card .card-body .card-title { font-size: 1.45rem; }
+  #post-list .card .card-body { padding: 1.5rem 0.25rem; }
+  #post-list .post-meta { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
