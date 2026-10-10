@@ -11,19 +11,15 @@ description: "The promise of Jesus's return and how it affects our lives today."
 
 For context, I attend a private Baptist university. In the few years I've been here, I've witnessed that my Christian brothers and sisters are both influenced by the world and yet disassociated from current events. I'm speaking broadly here, but it seems as if current events don't have a place in our biblical discussion. We're in a bubble. The world seems "out there," and thus, irrelevant (except for fashion, internet trends, vernacular, and what-have-you). The danger of this is that we become *of* the world, but not *in* it — quite the inverse of what we're supposed to be. We don't see how broken the world is, and we lose the cry for Jesus to return. We cannot experience how truly blessed our hope is unless we acknowledge the modern state of affairs. 
 
-Take a look around. The world is extremely broken. You can see it everywhere. 
+Take a look around. The world is extremely broken. You can see it everywhere. It's in our nation, our homes, and our hearts. 
 
-In our nation. 
+The assassination of Charlie Kirk was evil. The events of October 7th, 2023 was wicked. The depression plaguing our generation is wrong. 
 
-In our homes. 
+You can see the corruption of our world even in trash littering our streets and every dead animal on the side of the road.
 
-In our hearts. 
+Just because it's "normal" doesn't mean it should be this way.
 
-There was evil in the assassination of Charlie Kirk, the events of October 7th, 2023, and in the depression plaguing our generation. 
-
-There is brokenness in the trash littering our streets and every dead animal on the side of the road. 
-
-If you are a resident of the universe, you have experienced it in some way. All of creation feels the pain of this evil age (Romans 8:22, Galatians 1:4).
+All of creation feels the pain of this evil age (Romans 8:22, Galatians 1:4).
 
 But creation is not without hope.
 
