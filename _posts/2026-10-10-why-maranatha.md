@@ -13,7 +13,7 @@ For context, I attend a private Baptist university. In the few years I've been h
 
 Take a look around. The world is extremely broken. You can see it everywhere. It's in our nation, our homes, and our hearts. 
 
-The assassination of Charlie Kirk was evil. The events of October 7th, 2023 was wicked. The depression plaguing our generation is wrong. 
+The assassination of Charlie Kirk. The events of October 7th, 2023. The depression and loneliness in our generation. 
 
 You can see the corruption of our world even in trash littering our streets and every dead animal on the side of the road.
 
