@@ -44,13 +44,13 @@ Consider these descriptions:
 
 There will be no more war (Isaiah 2:4). Every weapon will be forged into a tool that brings life.
 
-There will be no more death (Isaiah 25:8). No more premature deaths. Never again will people lose parents, children, or friends.
+There will be no more death (Isaiah 25:8). Period. Never again will we lose our parents, children, or friends.
 
 There will be no more tears (Isaiah 25:8). No more loneliness, hurt, or pain. No more heartbreak.
 
-Ruined cities being rebuilt and populated (Ezekiel 36:35, Isaiah 49:19). Every affect of war will be reversed.
+All the ruined cities being rebuilt and repopulated (Ezekiel 36:35, Isaiah 49:19). Every effect of war will be reversed.
 
-Desolate wilderness becoming like the Garden of Eden (Ezekiel 36:35). The earth will bear fruit. No more famine. No more hunger.
+The desolate wilderness becoming like the Garden of Eden (Ezekiel 36:35). The earth will bear fruit. No more famine. No more hunger.
 
 A river of life flowing from the temple in Jerusalem (Ezekiel 47:1-12). Beauty inside of and descending from the City of the Great King, where the LORD will dwell.
 
