@@ -48,11 +48,11 @@ There will be no more death (Isaiah 25:8). Period. Never again will we lose our 
 
 There will be no more tears (Isaiah 25:8). No more loneliness, hurt, or pain. No more heartbreak.
 
-All the ruined cities being rebuilt and repopulated (Ezekiel 36:35, Isaiah 49:19). Every effect of war will be reversed.
+All the ruined cities will be rebuilt and repopulated (Ezekiel 36:35, Isaiah 49:19). Every effect of war will be reversed.
 
-The desolate wilderness becoming like the Garden of Eden (Ezekiel 36:35). The earth will bear fruit. No more famine. No more hunger.
+The desolate wilderness will become "like the Garden of Eden" (Ezekiel 36:35). The earth will bear fruit. No more famine. No more hunger.
 
-A river of life flowing from the temple in Jerusalem (Ezekiel 47:1-12). Beauty inside of and descending from the City of the Great King, where the LORD will dwell.
+A river of life will flow from the temple in Jerusalem (Ezekiel 47:1-12). Beauty inside of and descending from the City of the Great King, where the LORD will dwell.
 
 The most wonderful part is that every nation will stream to Jerusalem to learn how to follow God (Isaiah 2:3)! Reframe this in our modern context. Isaiah says "the nations" will desire to know the Law of the LORD. America. Russia. Egypt. Iran. The United Kingdom. All of them! Every nation that we know of today will acknowledge that God is King.
 
