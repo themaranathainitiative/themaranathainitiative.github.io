@@ -59,16 +59,10 @@ The most wonderful part is that every nation will stream to Jerusalem to learn h
 Isn't this incredible?! No wonder Paul can say that "the sufferings of this present time are not worth comparing with the glory that is to be revealed to us" (Romans 8:18)! Yes, we suffer. The whole world suffers. But God came into the world, and He is yet coming again to restore all things. 
 ## Restore the Cry of "Maranatha"
 
-How do we learn to desire the coming glory? How can we teach our hearts to cry "Maranatha"?
+Our generation needs more "maranatha."
 
-There are a few steps we can take.
+We're a rather hopeless generation. Even within the Church, Gen Z is perhaps the most depressed, stressed, and anxious of all previous generations. We have faith, but we don't have hope — and we need both. We trust God to deliver us from sins, but do we *hope* in the fact that God is coming back to make all things new (Revelation 21:5)? Are we capable of rejoicing in our sufferings in this present age, or will we be found hopeless (Romans 5:3-5)? Our hope is not just in what Christ has accomplished, *but what he will yet accomplish when he returns.* This hope will not put us to shame. God is faithful, and all of His promises *will* come to pass. We must restore the expectation of "our blessed hope" which is "the appearing of the glory of our great God and Savior Jesus Christ" (Titus 2:13).
 
-I recommend highlighting passages that talk about Jesus's return. All of the Gospels and nearly every Epistle talks about it in some manner. It appears far more often than you think. It's a central conversation in the Bible. As you identify these passages, you'll see how important it was to the apostles.
-
-I also suggest talking about Jesus's return with your friends. Integrate the topic into your biblical discussions. Study the promises of the future restoration together and identify which specific promises you connect with most.
-
-Personally, I recommend reading more of the prophets. Though there is a lot about judgment within those pages, there are so many tangible promises about the glory we will experience. God was very vivid with the prophecies He imparted to His prophets, and I've found so much hope and life in them.
-
-Also, learn to be in touch with the world today. Be in the world, but not of it. Read the Bible, then read one piece of current events. Then read the Bible again. Learn to interpret the world through a biblical lens rather than keeping the two separate. The Bible is in the world. It pertains to the world. But it is not *of* this world. It comes from God. Don't shy away from government corruption, broken families, or even loneliness. God is going to wipe every tear away. Remember that the present evil age isn't worth comparing to what will come next.
+That is partly why I have started *Maranatha Initiative.* We need more Christians crying out for the return of Jesus. I hope you find encouragement in this
 
 Maranatha.
