@@ -11,5 +11,12 @@ Whether you've stumbled upon this website or willingly found it, I welcome you. 
 
 May God bless you today.
 
-*Statement on AI*
-I will never use AI to generate my writings. I occaisionally use generative AI to suggest *minor gramatical corrections*, but AI has no place in the development of my thoughts/reflections. Any instance of the em-dash (—) is because I intentionally put it there.
+
+### On Authorship & AI
+
+The articles published on Maranatha Initiative are my own work. I do not use generative AI to write my posts or develop their arguments.
+
+I may use AI as a tool for proofreading, editorial feedback, research assistance, or website development, but the ideas, conclusions, and final writing are my own.
+
+I believe authorship matters, particularly when writing about Scripture, theology, and matters of personal conviction. My goal is to communicate what I actually think, not what a language model thinks I should say.
+Any instance of the em-dash (—) is because I intentionally put it there.
