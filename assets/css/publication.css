@@ -254,3 +254,20 @@ footer { border-top-color: var(--publication-border); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+
+.publication-attribution {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.publication-attribution a {
+  color: var(--text-muted-color, #8b8b8b);
+  text-decoration: none;
+}
+
+.publication-attribution a:hover {
+  color: #b38a55;
+  text-decoration: underline;
+}
